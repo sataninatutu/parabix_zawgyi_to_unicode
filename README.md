@@ -26,3 +26,6 @@ make zawgyi2unicode
 4. Converting: 
 ./bin/zawgyi2unicode my_zawgyi_file.txt > unicode_output.txt
 
+
+Note: The CMakeLists within the transcoder file will also have to be modified. 
+
