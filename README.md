@@ -1,0 +1,2 @@
+This project implements a high-performance Zawgyi-to-Unicode transcoder using the Parabix parallel bitstream framework. Zawgyi is a legacy encoding for the Myanmar script that remains widely used despite being non-standard and incompatible with Unicode. 
+The converter processes text through a multi-stage pipeline: UTF-8 decoding, character classification, 1-to-1 mapping (Category 1), 1-to-multiple expansion (Category 2), and UTF-8 re-encoding—all operating on parallel bit streams using SIMD instructions.
