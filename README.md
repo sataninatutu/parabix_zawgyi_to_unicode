@@ -8,7 +8,7 @@ Prerequisites:
 - CMake 3.10+
 - C++14 compatible compiler
 
-Specific File structure:
+
 From https://cs-git-research.cs.sfu.ca/cameron/parabix-devel/-/tree/master/,
 parabix-devel/
 └── tools/
