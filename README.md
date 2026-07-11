@@ -12,10 +12,7 @@ Prerequisites:
 From https://cs-git-research.cs.sfu.ca/cameron/parabix-devel/-/tree/master/,
 
 
-parabix-devel/
-└── tools/
-    └── transcoders/
-        └── zawgyi2unicode.cpp   ← Main converter file
+parabix-devel/tools/ranscoders/zawgyi2unicode.cpp   ← Main converter file
 
 1. Go to build folder
 cd ~/parabix-devel/build
