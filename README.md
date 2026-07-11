@@ -14,15 +14,15 @@ From https://cs-git-research.cs.sfu.ca/cameron/parabix-devel/-/tree/master/,
 
 parabix-devel/tools/ranscoders/zawgyi2unicode.cpp   ← Main converter file
 
-1. Go to build folder
+1. Go to build folder: 
 cd ~/parabix-devel/build
 
-2. Make using CMake
+2. Make using CMake: 
 make zawgyi2unicode
 
-3. Basic Usage
+3. Basic Usage: 
 ./bin/zawgyi2unicode <input_file.zawgyi>
 
-4. Converting
+4. Converting: 
 ./bin/zawgyi2unicode my_zawgyi_file.txt > unicode_output.txt
 
